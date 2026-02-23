@@ -1,0 +1,45 @@
+[0.031s] Invoking command in '/home/radxa/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/radxa/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/radxa/turtlebot3_ws/install/turtlebot3_cartographer
+[0.570s] -- The C compiler identification is GNU 13.3.0
+[0.995s] -- The CXX compiler identification is GNU 13.3.0
+[1.025s] -- Detecting C compiler ABI info
+[1.226s] -- Detecting C compiler ABI info - done
+[1.270s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.271s] -- Detecting C compile features
+[1.272s] -- Detecting C compile features - done
+[1.286s] -- Detecting CXX compiler ABI info
+[1.467s] -- Detecting CXX compiler ABI info - done
+[1.483s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.484s] -- Detecting CXX compile features
+[1.484s] -- Detecting CXX compile features - done
+[1.495s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.819s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.035s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.405s] -- Configuring done (2.3s)
+[2.410s] -- Generating done (0.0s)
+[2.412s] -- Build files have been written to: /home/radxa/turtlebot3_ws/build/turtlebot3_cartographer
+[2.430s] Invoked command in '/home/radxa/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/radxa/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/radxa/turtlebot3_ws/install/turtlebot3_cartographer
+[2.434s] Invoking command in '/home/radxa/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/radxa/turtlebot3_ws/build/turtlebot3_cartographer -- -j8 -l8
+[2.530s] Invoked command in '/home/radxa/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/radxa/turtlebot3_ws/build/turtlebot3_cartographer -- -j8 -l8
+[2.537s] Invoking command in '/home/radxa/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/radxa/turtlebot3_ws/build/turtlebot3_cartographer
+[2.549s] -- Install configuration: ""
+[2.551s] -- Execute custom install script
+[2.552s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[2.569s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[2.585s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[2.604s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[2.621s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[2.637s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[2.662s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[2.680s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[2.704s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[2.721s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[2.739s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[2.758s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[2.778s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[2.797s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[2.817s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[2.834s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[2.851s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[2.868s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[2.885s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[2.911s] Invoked command in '/home/radxa/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/radxa/turtlebot3_ws/build/turtlebot3_cartographer

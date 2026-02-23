@@ -1,0 +1,58 @@
+[0.033s] Invoking command in '/home/radxa/turtlebot3_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/radxa/turtlebot3_ws/src/turtlebot3/turtlebot3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/radxa/turtlebot3_ws/install/turtlebot3_description
+[0.564s] -- The C compiler identification is GNU 13.3.0
+[0.981s] -- The CXX compiler identification is GNU 13.3.0
+[1.026s] -- Detecting C compiler ABI info
+[1.231s] -- Detecting C compiler ABI info - done
+[1.246s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.247s] -- Detecting C compile features
+[1.247s] -- Detecting C compile features - done
+[1.261s] -- Detecting CXX compiler ABI info
+[1.452s] -- Detecting CXX compiler ABI info - done
+[1.469s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.470s] -- Detecting CXX compile features
+[1.470s] -- Detecting CXX compile features - done
+[1.501s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.829s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.038s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.224s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[2.396s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[2.631s] -- Configuring done (2.5s)
+[2.637s] -- Generating done (0.0s)
+[2.639s] -- Build files have been written to: /home/radxa/turtlebot3_ws/build/turtlebot3_description
+[2.656s] Invoked command in '/home/radxa/turtlebot3_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/radxa/turtlebot3_ws/src/turtlebot3/turtlebot3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/radxa/turtlebot3_ws/install/turtlebot3_description
+[2.661s] Invoking command in '/home/radxa/turtlebot3_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/radxa/turtlebot3_ws/build/turtlebot3_description -- -j8 -l8
+[2.752s] Invoked command in '/home/radxa/turtlebot3_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/radxa/turtlebot3_ws/build/turtlebot3_description -- -j8 -l8
+[2.761s] Invoking command in '/home/radxa/turtlebot3_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/radxa/turtlebot3_ws/build/turtlebot3_description
+[2.775s] -- Install configuration: ""
+[2.776s] -- Execute custom install script
+[2.778s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl
+[2.801s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl
+[2.809s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl
+[2.824s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae
+[2.839s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg
+[2.853s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl
+[2.870s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae
+[2.886s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg
+[2.903s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl
+[2.919s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl
+[2.934s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz
+[2.953s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf
+[2.965s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf
+[2.980s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf
+[2.995s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf
+[3.013s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+[3.031s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+[3.049s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+[3.065s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv
+[3.083s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+[3.101s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv
+[3.120s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+[3.137s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+[3.156s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+[3.174s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv
+[3.192s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv
+[3.210s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+[3.231s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+[3.249s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+[3.268s] -- Symlinking: /home/radxa/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/package.xml
+[3.295s] Invoked command in '/home/radxa/turtlebot3_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/radxa/turtlebot3_ws/build/turtlebot3_description
