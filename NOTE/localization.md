@@ -39,7 +39,7 @@ occupancy_grid_node = Node(
 ros2 run nav2_map_server map_saver_cli -f /home/radxa/turtlebot3_ws/map/map_2.yaml
 ```
 
-
+########################
 # Run bring up devices
 
 ```
@@ -58,3 +58,15 @@ ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=False
 export TURTLEBOT3_MODEL=burger
 ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=False map:=/home/radxa/turtlebot3_ws/map/map_2.yaml
 ```
+# Read the cmd_vel
+```
+ros2 topic pub
+```
+
+############################
+File python khong chay cung ROS2 ->>>> them nay vao
+
+
+from rclpy.qos import QoSProfile, ReliabilityPolicy
+
+qos_profile = QoSProfile(reliability=ReliabilityPolicy.BEST_EFFORT, depth=10)
