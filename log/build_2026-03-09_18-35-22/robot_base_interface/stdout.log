@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing robot_base_interface.egg-info/PKG-INFO
+writing dependency_links to robot_base_interface.egg-info/dependency_links.txt
+writing entry points to robot_base_interface.egg-info/entry_points.txt
+writing requirements to robot_base_interface.egg-info/requires.txt
+writing top-level names to robot_base_interface.egg-info/top_level.txt
+reading manifest file 'robot_base_interface.egg-info/SOURCES.txt'
+writing manifest file 'robot_base_interface.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/radxa/turtlebot3_ws/install/robot_base_interface/lib/python3.12/site-packages/robot-base-interface.egg-link (link to .)
+Installing send_goal script to /home/radxa/turtlebot3_ws/install/robot_base_interface/lib/robot_base_interface
+Installing set_init_pose script to /home/radxa/turtlebot3_ws/install/robot_base_interface/lib/robot_base_interface
+
+Installed /home/radxa/turtlebot3_ws/build/robot_base_interface
+running symlink_data

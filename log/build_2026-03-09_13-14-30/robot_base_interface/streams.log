@@ -1,0 +1,24 @@
+[2.334s] Invoking command in '/home/radxa/turtlebot3_ws/build/robot_base_interface': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/radxa/turtlebot3_ws/build/robot_base_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/radxa/turtlebot3_ws/install/robot_base_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/radxa/turtlebot3_ws/build/robot_base_interface/build --no-deps symlink_data
+[2.796s] running develop
+[3.083s] running egg_info
+[3.084s] creating robot_base_interface.egg-info
+[3.110s] writing robot_base_interface.egg-info/PKG-INFO
+[3.112s] writing dependency_links to robot_base_interface.egg-info/dependency_links.txt
+[3.113s] writing entry points to robot_base_interface.egg-info/entry_points.txt
+[3.114s] writing requirements to robot_base_interface.egg-info/requires.txt
+[3.115s] writing top-level names to robot_base_interface.egg-info/top_level.txt
+[3.116s] writing manifest file 'robot_base_interface.egg-info/SOURCES.txt'
+[3.169s] reading manifest file 'robot_base_interface.egg-info/SOURCES.txt'
+[3.171s] writing manifest file 'robot_base_interface.egg-info/SOURCES.txt'
+[3.200s] running build_ext
+[3.202s] Creating /home/radxa/turtlebot3_ws/install/robot_base_interface/lib/python3.12/site-packages/robot-base-interface.egg-link (link to .)
+[3.203s] Installing set_init_pose script to /home/radxa/turtlebot3_ws/install/robot_base_interface/lib/robot_base_interface
+[3.204s] 
+[3.205s] Installed /home/radxa/turtlebot3_ws/build/robot_base_interface
+[3.206s] running symlink_data
+[3.207s] creating /home/radxa/turtlebot3_ws/install/robot_base_interface/share/ament_index
+[3.208s] creating /home/radxa/turtlebot3_ws/install/robot_base_interface/share/ament_index/resource_index
+[3.208s] creating /home/radxa/turtlebot3_ws/install/robot_base_interface/share/ament_index/resource_index/packages
+[3.209s] symbolically linking /home/radxa/turtlebot3_ws/build/robot_base_interface/resource/robot_base_interface -> /home/radxa/turtlebot3_ws/install/robot_base_interface/share/ament_index/resource_index/packages
+[3.209s] symbolically linking /home/radxa/turtlebot3_ws/build/robot_base_interface/package.xml -> /home/radxa/turtlebot3_ws/install/robot_base_interface/share/robot_base_interface
+[3.277s] Invoked command in '/home/radxa/turtlebot3_ws/build/robot_base_interface' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/radxa/turtlebot3_ws/build/robot_base_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/radxa/turtlebot3_ws/install/robot_base_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/radxa/turtlebot3_ws/build/robot_base_interface/build --no-deps symlink_data

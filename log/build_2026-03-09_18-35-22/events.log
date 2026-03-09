@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.000259] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.000323] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.000376] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.000432] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.000457] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.000478] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.000506] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.000525] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.000543] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.000561] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.000582] (robot_base_interface) JobQueued: {'identifier': 'robot_base_interface', 'dependencies': OrderedDict()}
+[0.000608] (robot_base_interface) JobStarted: {'identifier': 'robot_base_interface'}
+[0.098981] (-) TimerEvent: {}
+[0.199777] (-) TimerEvent: {}
+[0.300939] (-) TimerEvent: {}
+[0.401771] (-) TimerEvent: {}
+[0.502973] (-) TimerEvent: {}
+[0.604066] (-) TimerEvent: {}
+[0.705157] (-) TimerEvent: {}
+[0.806074] (-) TimerEvent: {}
+[0.906955] (-) TimerEvent: {}
+[1.007802] (-) TimerEvent: {}
+[1.109490] (-) TimerEvent: {}
+[1.210588] (-) TimerEvent: {}
+[1.311460] (-) TimerEvent: {}
+[1.412816] (-) TimerEvent: {}
+[1.513993] (-) TimerEvent: {}
+[1.615075] (-) TimerEvent: {}
+[1.716179] (-) TimerEvent: {}
+[1.817260] (-) TimerEvent: {}
+[1.918382] (-) TimerEvent: {}
+[2.020438] (-) TimerEvent: {}
+[2.121303] (-) TimerEvent: {}
+[2.222237] (-) TimerEvent: {}
+[2.323607] (-) TimerEvent: {}
+[2.355022] (robot_base_interface) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/radxa/turtlebot3_ws/build/robot_base_interface/build', '--no-deps', 'symlink_data'], 'cwd': '/home/radxa/turtlebot3_ws/build/robot_base_interface', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'radxa', 'SSH_CLIENT': '192.168.200.194 34684 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/radxa/.vscode-server/cli/servers/Stable-072586267e68ece9a47aa43f8c108e0dcbf44622/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/radxa/turtlebot3_ws/install/turtlebot3_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/radxa/.vscode-server/cli/servers/Stable-072586267e68ece9a47aa43f8c108e0dcbf44622/server/bin/helpers/browser.sh', 'HOME': '/home/radxa', 'TERM_PROGRAM_VERSION': '1.109.5', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-c115b80e-8b62-457f-9515-1e6bffd85d50.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/radxa/.vscode-server/cli/servers/Stable-072586267e68ece9a47aa43f8c108e0dcbf44622/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/radxa/.vscode-server/cli/servers/Stable-072586267e68ece9a47aa43f8c108e0dcbf44622/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/radxa/turtlebot3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'radxa', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/home/radxa/.vscode-server/cli/servers/Stable-072586267e68ece9a47aa43f8c108e0dcbf44622/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'QT_QUICK_BACKEND': 'software', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e91e84c107.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/radxa/turtlebot3_ws/install/turtlebot3:/home/radxa/turtlebot3_ws/install/turtlebot3_teleop:/home/radxa/turtlebot3_ws/install/turtlebot3_bringup:/home/radxa/turtlebot3_ws/install/turtlebot3_node:/home/radxa/turtlebot3_ws/install/turtlebot3_navigation2:/home/radxa/turtlebot3_ws/install/turtlebot3_example:/home/radxa/turtlebot3_ws/install/turtlebot3_msgs:/home/radxa/turtlebot3_ws/install/turtlebot3_description:/home/radxa/turtlebot3_ws/install/turtlebot3_cartographer:/home/radxa/turtlebot3_ws/install/rplidar_ros:/home/radxa/turtlebot3_ws/install/robot_base_interface:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/radxa/turtlebot3_ws/build/robot_base_interface', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.200.194 34684 192.168.200.58 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share/:/usr/share/', 'PYTHONPATH': '/home/radxa/turtlebot3_ws/build/robot_base_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/radxa/turtlebot3_ws/install/robot_base_interface/lib/python3.12/site-packages:/home/radxa/turtlebot3_ws/build/turtlebot3_teleop:/home/radxa/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:/home/radxa/turtlebot3_ws/build/turtlebot3_example:/home/radxa/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:/home/radxa/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/home/radxa/turtlebot3_ws/build/robot_base_interface:/home/radxa/turtlebot3_ws/install/robot_base_interface/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/radxa/turtlebot3_ws/install/turtlebot3:/home/radxa/turtlebot3_ws/install/turtlebot3_bringup:/home/radxa/turtlebot3_ws/install/turtlebot3_node:/home/radxa/turtlebot3_ws/install/turtlebot3_navigation2:/home/radxa/turtlebot3_ws/install/turtlebot3_msgs:/home/radxa/turtlebot3_ws/install/turtlebot3_description:/home/radxa/turtlebot3_ws/install/turtlebot3_cartographer:/home/radxa/turtlebot3_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.423781] (-) TimerEvent: {}
+[2.524590] (-) TimerEvent: {}
+[2.625527] (-) TimerEvent: {}
+[2.726685] (-) TimerEvent: {}
+[2.827819] (-) TimerEvent: {}
+[2.832369] (robot_base_interface) StdoutLine: {'line': b'running develop\n'}
+[2.928020] (-) TimerEvent: {}
+[3.029086] (-) TimerEvent: {}
+[3.122032] (robot_base_interface) StdoutLine: {'line': b'running egg_info\n'}
+[3.129456] (-) TimerEvent: {}
+[3.149617] (robot_base_interface) StdoutLine: {'line': b'writing robot_base_interface.egg-info/PKG-INFO\n'}
+[3.150683] (robot_base_interface) StdoutLine: {'line': b'writing dependency_links to robot_base_interface.egg-info/dependency_links.txt\n'}
+[3.151651] (robot_base_interface) StdoutLine: {'line': b'writing entry points to robot_base_interface.egg-info/entry_points.txt\n'}
+[3.152494] (robot_base_interface) StdoutLine: {'line': b'writing requirements to robot_base_interface.egg-info/requires.txt\n'}
+[3.154209] (robot_base_interface) StdoutLine: {'line': b'writing top-level names to robot_base_interface.egg-info/top_level.txt\n'}
+[3.214176] (robot_base_interface) StdoutLine: {'line': b"reading manifest file 'robot_base_interface.egg-info/SOURCES.txt'\n"}
+[3.215844] (robot_base_interface) StdoutLine: {'line': b"writing manifest file 'robot_base_interface.egg-info/SOURCES.txt'\n"}
+[3.229913] (-) TimerEvent: {}
+[3.246714] (robot_base_interface) StdoutLine: {'line': b'running build_ext\n'}
+[3.248768] (robot_base_interface) StdoutLine: {'line': b'Creating /home/radxa/turtlebot3_ws/install/robot_base_interface/lib/python3.12/site-packages/robot-base-interface.egg-link (link to .)\n'}
+[3.251957] (robot_base_interface) StdoutLine: {'line': b'Installing send_goal script to /home/radxa/turtlebot3_ws/install/robot_base_interface/lib/robot_base_interface\n'}
+[3.253445] (robot_base_interface) StdoutLine: {'line': b'Installing set_init_pose script to /home/radxa/turtlebot3_ws/install/robot_base_interface/lib/robot_base_interface\n'}
+[3.254518] (robot_base_interface) StdoutLine: {'line': b'\n'}
+[3.255597] (robot_base_interface) StdoutLine: {'line': b'Installed /home/radxa/turtlebot3_ws/build/robot_base_interface\n'}
+[3.256717] (robot_base_interface) StdoutLine: {'line': b'running symlink_data\n'}
+[3.328525] (robot_base_interface) CommandEnded: {'returncode': 0}
+[3.330535] (-) TimerEvent: {}
+[3.424293] (robot_base_interface) JobEnded: {'identifier': 'robot_base_interface', 'rc': 0}
+[3.429498] (-) EventReactorShutdown: {}

@@ -1,0 +1,3 @@
+[console_scripts]
+send_goal = robot_base_interface.send_goal_node:main
+set_init_pose = robot_base_interface.init_pose_node:main

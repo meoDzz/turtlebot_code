@@ -58,9 +58,18 @@ ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=False
 export TURTLEBOT3_MODEL=burger
 ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=False map:=/home/radxa/turtlebot3_ws/map/map_2.yaml
 ```
+
+# Run sending velocity to ESP
+```bash
+/home/radxa/turtlebot3_ws/src/turtlebot3/turtlebot3_bringup/launch
+```
+run file *sub_velocity.py*
+```bash
+python3 sub_velocity.py
+```
 # Read the cmd_vel
 ```
-ros2 topic pub
+ros2 topic echo /cmd_vel
 ```
 
 ############################
@@ -70,3 +79,20 @@ File python khong chay cung ROS2 ->>>> them nay vao
 from rclpy.qos import QoSProfile, ReliabilityPolicy
 
 qos_profile = QoSProfile(reliability=ReliabilityPolicy.BEST_EFFORT, depth=10)
+######
+
+
+# Set the init pose
+```bash
+ros2 run robot_base_interface set_init_pose
+```
+
+# Set the goal pose
+```bash
+ros2 run robot_base_interface send_goal
+```
+
+# Check click point on map
+```bash
+ros2 topic echo /clicked_point
+```
